@@ -3575,7 +3575,7 @@ display:none;
     width: 100%;
 }
 #contact form textarea {
-  background:none;
+  background: RGB(47, 172, 192);
   color: #fff;
   border: none;
   -webkit-border-radius: 4px;
