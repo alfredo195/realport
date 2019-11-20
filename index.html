@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas
+	================================================== -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Birva - Responsive Multipurpose One Page Theme"
+    />
+    <meta
+      name="keywords"
+      content="bootstrap ,html5,css3,jquery,portfolio,creative,design,personal"
+    />
+    <meta name="author" content="" />
+
+    <!-- Page Title 
+	================================================== -->
+    <title>Alfredo</title>
+
+    <!-- Favicon 
+	================================================== -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Google fonts-->
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald:300,400,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--font-awesome-->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+
+    <!-- Theme Specific CSS -->
+    <link href="css/animate.css" rel="stylesheet" media="screen" />
+    <link href="css/flexslider.css" rel="stylesheet" media="screen" />
+    <link href="css/supersized.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" media="screen" />
+    <link href="css/style_timeline.css" rel="stylesheet" media="screen" />
+
+    <!--Color Scheme -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      id="color"
+      href="css/colors/color9.css"
+    />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body
+    data-spy="scroll"
+    data-target=".navbar-collapse"
+    data-offset="50"
+    class="loading"
+  >
+    <!-- preloader -->
+    <div id="loadbox">
+      <div class="wrapper">
+        <div class="inner"></div>
+      </div>
+    </div>
+    <!-- end  -->
+    <!-- Full screen slider note: slider image path located in initialization script -->
+
+    <!-- Header navigation -->
+    <header class="navbar">
+      <div class="navbar-header">
+        <button
+          class="navbar-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+        >
+          <span class="sr-only">navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <div class="navbar-brand">
+			<a href="#home"><img src="images/home.jpg" alt="" /></a>
+		</div>
+      </div> -->
+      <nav class="collapse navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="toggle-navbar"><i class="fa fa-angle-right"></i></div>
+      </nav>
+    </header>
+    <!-- End Header navigation -->
+    <!-- Home banner section -->
+    <div id="home">
+      <ul class="home-banner slideshow-home">
+        <!-- Home parallax background -->
+        <li class="parallax">
+          <!-- background overlay pattern -->
+          <div class="background-overlay"></div>
+          <div class="wrapper">
+            <div class="inner">
+              <div class="container">
+                <div class="centerContent">
+                  <!-- floating logo -->
+                  <div class="logo float">
+                    <div class="thread"></div>
+                    <img alt="" src="images/port_logo.png" />
+                  </div>
+                  <!-- end floating logo -->
+                  <!-- typer -->
+                  <div class="message">
+                    <h1 class="messageHeader">
+                      <span class="purple">I create</span>
+                    </h1>
+                    <h1 class="messageHeader tlt">
+                      <span class="purple"
+                        >Creative
+                        <span
+                          data-typer-targets="Clean, Inspiring ,Websites"
+                        ></span
+                      ></span>
+                    </h1>
+                  </div>
+                  <!-- end typer -->
+                </div>
+                <div class="clearfix"></div>
+                <!-- Go button -->
+                <div class="go">
+                  <a href="#about"><i class="fa fa-chevron-down"></i></a>
+                </div>
+                <!-- end go button -->
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- end Home parallax background -->
+      </ul>
+    </div>
+    <!-- End Home banner section -->
+    <!-- About section -->
+    <div id="about" class="section">
+      <div class="container">
+        <!-- heading -->
+        <div class="row">
+          <div
+            class="section-heading text-center picture"
+            data-animated="fadeInDown"
+          >
+            <h1 class="title"><span style=" background:  rgba(25, 25, 25, 1);">About Me</span></h1>
+            <p id= "alfredo" class="subtitle">
+              Full Stack Developer, thats likes to think outside of the box.
+            </p>
+          </div>
+        </div>
+        <!-- end heading -->
+        <!-- About blocks -->
+        <div class="row">
+          <div class="col-sm-3 about-block">
+            <a class="circle" href="#"><i class="fa fa-fast-forward"></i></a>
+            <header>
+              <h3><a href="#">Fast</a></h3>
+            </header>
+            <p id= "alfredo">
+              Fast load times and lag free interaction, my highest priority.
+            </p>
+          </div>
+          <div class="col-sm-3 about-block">
+            <a class="circle" href="#"><i class="fa fa-mobile-phone"></i></a>
+            <header>
+              <h3><a href="#">Responsive</a></h3>
+            </header>
+            <p id= "alfredo">
+              My layouts will work on any device, big or small.
+            </p>
+          </div>
+          <div class="col-sm-3 about-block">
+            <a class="circle" href="#"><i class="fa fa-lightbulb-o"></i></a>
+            <header>
+              <h3><a href="#">Intuitive</a></h3>
+            </header>
+            <p id= "alfredo">
+              Smart database and server layout while being restful.
+            </p>
+          </div>
+          <div class="col-sm-3 about-block">
+            <a class="circle" href="#"><i class="fa fa-rocket"></i></a>
+            <header>
+              <h3><a href="#">Dynamic</a></h3>
+            </header>
+            <p id= "alfredo">
+              Websites don't have to be static, I love making pages come to
+              life.
+            </p>
+          </div>
+          <!-- <div class="go">
+				<a href="#timeline-block"><i class="fa fa-chevron-down"></i></a>
+			</div> -->
+        </div>
+        <!-- end About blocks -->
+      </div>
+    </div>
+    <!-- End About section -->
+
+    <!-- Team section -->
+    <div id="team-block" class="section">
+      <div class="container">
+        <!-- Heading -->
+        <!-- <div class="section-heading text-center picture" data-animated="fadeInDown">
+			<h1 class="title"><span>A small, but fine team</span></h1>
+			<p class="subtitle">When the whole becomes greater than the sum of its parts</p>
+		</div> -->
+        <!-- end Heading -->
+        <div class="details">
+          <div class="identifier">
+            <h3 id= "alfredo" class="name"><strong>Alfredo</strong> Gonzalez</h3>
+            <h4 id= "alfredo" class="subheading">Full Stack <strong>Developer</strong></h4>
+          </div>
+          <div class="text-content">
+            <p id= "alfredo">
+              <b
+                >I enjoy a challenge and to come up with a creative solution
+                <br />As Fullstack Developer</b
+              >
+              I enjoy to create user friendly, aesthetically dynamic front ends,
+              while maintaining a clean and restful backends that is easily
+              scalable.
+            </p>
+          </div>
+        </div>
+        <ul class="team-nav">
+          <li>
+            <a href="#" class="member-node"
+              ><img
+                src="images/slack pro.jpg"
+                alt="A picture of myself Alfredo Gonzalez"
+                class="nav-pic"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end team section -->
+    <!-- Facts section -->
+    <div id="facts" class="section parallax">
+      <!--background overlay-->
+      <div class="background-overlay"></div>
+      <!-- end background overlay-->
+      <!--facts container-->
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-md-2 col col-sm-4 facts">
+            <header data-animated="bounceIn">
+              <div class="grNum">
+                <h5>Cups of<br />Coffee<br /></h5>
+                <p class="getNum" data-num="172" data-bar="">172</p>
+                <span></span>
+              </div>
+            </header>
+            <div class="circle"></div>
+          </div>
+          <div class="col-md-2 col-sm-4 col facts">
+            <header data-animated="bounceIn">
+              <div class="grNum">
+                <h5>html</h5>
+                <p class="getNum" data-num="90" data-bar="">90</p>
+                <span></span>
+              </div>
+            </header>
+            <div class="circle"></div>
+          </div>
+          <div class="col-md-2 col-sm-4 col facts">
+            <header data-animated="bounceIn">
+              <div class="grNum">
+                <h5>css</h5>
+                <p class="getNum" data-num="80" data-bar="">80</p>
+                <span></span>
+              </div>
+            </header>
+            <div class="circle"></div>
+          </div>
+          <div class="col-md-2 col-sm-4 col facts">
+            <header data-animated="bounceIn">
+              <div class="grNum">
+                <h5>React</h5>
+                <p class="getNum" data-num="85" data-bar="">85</p>
+                <span></span>
+              </div>
+            </header>
+            <div class="circle"></div>
+          </div>
+          <div class="col-md-2 col-sm-4 col facts">
+            <header data-animated="bounceIn">
+              <div class="grNum">
+                <h5>javascripts</h5>
+                <p class="getNum" data-num="82" data-bar="">82</p>
+                <span></span>
+              </div>
+            </header>
+            <div class="circle"></div>
+          </div>
+          <div class="col-md-2 col-sm-4 col facts">
+            <header data-animated="bounceIn">
+              <div class="grNum">
+                <h5>Node.JS</h5>
+                <p class="getNum" data-num="80" data-bar="">80</p>
+                <span></span>
+              </div>
+            </header>
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <!--end facts container-->
+    </div>
+    <!-- end Facts section -->
+
+    <!-- end Service section -->
+
+    <!-- Portfolio section -->
+    <div id="portfolio" class="section">
+      <!-- heading -->
+      <div
+        class="container section-heading text-center"
+        data-animated="fadeInDown"
+      >
+        <h2 class="title"><span style=" background:  rgba(25, 25, 25, 1);">My Portfolio</span></h2>
+        <p id= "alfredo" class="subtitle">A fine selection of some projects I worked on.</p>
+      </div>
+      <!-- end heading -->
+      <!-- Filter -->
+
+      <!-- end filter -->
+      <div class="clearfix"></div>
+      <!-- portfolio thumbnail list -->
+      <ul id="portfolio-list">
+        <li class="development marketing">
+          <img src="images/vip-member.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">GG</span>
+            <p class="body">Gambling platform for EA games</p>
+          </div>
+          <a href="#project-single-photo"><i class="more">+</i></a>
+        </li>
+        <li class="design">
+          <img id="pokemon" src="images/pokeBattle.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Pokemon Battler</span>
+            <p class="body">A turnbase pokemon game</p>
+          </div>
+          <a href="#project-slideshow"><i class="more">+</i></a>
+        </li>
+        <li class="marketing development">
+          <img id="doctor" src="images/doctor.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Better Doctor</span>
+            <p class="body">Better health care one click away</p>
+          </div>
+          <a href="#project-video"><i class="more">+</i></a>
+        </li>
+        <li class="development design">
+          <img id="memory" src="images/memory.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Memory Game</span>
+            <p class="body">A react memory game with DB theme</p>
+          </div>
+          <a href="#project-single-photo2"><i class="more">+</i></a>
+        </li>
+        <li class="design">
+          <img id="bamazon" src="images/inventory.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Bamazon</span>
+            <p class="body">A node invintory app</p>
+          </div>
+          <a href="#project-slideshow2"><i class="more">+</i></a>
+        </li>
+        <li class="marketing">
+          <img src="images/chat.jpg" alt="" />
+          <div class="portfolio-item-content">
+            <span class="header">Chat App</span>
+            <p class="body">Simple chat app built with react</p>
+          </div>
+          <a href="#project-video2"><i class="more">+</i></a>
+        </li>
+      </ul>
+      <!-- end portfolio list -->
+
+      <!-- Project Expander -->
+      <div id="project-container">
+        <div class="project-navigation">
+          <button type="button" class="prev">
+            <i class="fa fa-angle-left"></i>
+          </button>
+          <button type="button" class="close">&times;</button>
+          <button type="button" class="next">
+            <i class="fa fa-angle-right"></i>
+          </button>
+        </div>
+        <div class="project-content">
+          <!-- Open project will be loaded here via AJAX load() -->
+        </div>
+      </div>
+
+      <!-- Add your projects within this following section -->
+      <div id="projects">
+        <div id="project-single-photo">
+          <div class="project-header">
+            <h3 class="title"><span span style=" background:  rgba(25, 25, 25, 1)">GG</span></h3>
+            <div class="type"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/gg.png" alt="" />
+              </div>
+              <div class="col-sm-6">
+                <h4 id="alfredo">About the project</h4>
+                <p id="alfredo">
+                  This is a betting platform for EA tournaments, a user will
+                  create an account, log in, and is greeted with the main event
+                  page. from there they can chose to watch that or head over to
+                  the scheduled matches page and choses a different one. User
+                  can add money to there account to bet more. Once a fed is
+                  selected the user will watch the action be able to chat with
+                  other people watching the game, along with betting.
+                </p>
+                <a
+                  href="https://gamblingame.herokuapp.com/"
+                  target="_blank"
+                  class="btn btn-primary btn-lg"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-slideshow">
+          <div class="project-header">
+            <h3 class="title"><span span style=" background:  rgba(25, 25, 25, 1)">Pokemon Battler</span></h3>
+            <div class="type"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/ingamePoke.png" alt="" />
+              </div>
+              <div class="col-sm-6">
+                <h4 id="alfredo">About the project</h4>
+                <p id="alfredo">
+                  With a little childhood inspiration this is a pokemon battle
+                  app. One user will start a room and tell their friend the room
+                  ID and the will be able to fight each other in real time
+                  thanks to sockets.io.
+                </p>
+                <a
+                  href="https://pokemongame-cbc.herokuapp.com/"
+                  target="_blank"
+                  class="btn btn-primary btn-lg"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-video">
+          <div class="project-header">
+            <h3 class="title"><span span style=" background:  rgba(25, 25, 25, 1)">Better Doctor</span></h3>
+            <div class="type"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/liveDoc.png" alt="" />
+              </div>
+              <div class="col-sm-6">
+                <h4 id="alfredo">About the project</h4>
+                <p id="alfredo">
+                  This app will allow you to find a new doctor in any giving
+                  area. The user can filter the search by area, specialty,
+                  language, and gender. The results will have a bio, contact
+                  info along with a google maps address link for directions. On
+                  top off all that the page is translatable with a click of a
+                  button.
+                </p>
+                <a
+                  href="https://efemar.github.io/better-doctors/"
+                  target="_blank"
+                  class="btn btn-primary btn-lg"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-single-photo2">
+          <div class="project-header">
+            <h3 class="title"><span span style=" background:  rgba(25, 25, 25, 1)">Memory Game</span></h3>
+            <div class="type"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/dragonball.png" alt="" />
+              </div>
+              <div class="col-sm-6">
+                <h4 id="alfredo">About the project</h4>
+                <p id="alfredo">
+                  A React based memory game. It keeps score and keeps track of
+                  the card you pick if you pickit again it starts over.
+                </p>
+
+                <a
+                  href="https://alfredo195.github.io/react-memory-game/"
+                  class="btn btn-primary btn-lg"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-slideshow2">
+          <div class="project-header">
+            <h3 class="title"><span span style=" background:  rgba(25, 25, 25, 1)">Bamazon</span></h3>
+            <div class="type"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/bamazon.png" alt="" />
+              </div>
+              <div class="col-sm-6">
+                <h4 id="alfredo">About the project</h4>
+                <p id="alfredo">
+                  Bamazon is a node app that keeps inventory, the user will
+                  enter the store and will be able to buy the item if there is
+                  enough in stock, if not the transition will be cancelled and
+                  notified that there is no more in stock.
+                </p>
+
+                <a
+                  href="https://github.com/alfredo195/bamazon"
+                  class="btn btn-primary btn-lg"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project-video2">
+          <div class="project-header">
+            <h3 class="title"><span style=" background:  rgba(25, 25, 25, 1)">Chat App</span></h3>
+            <div class="type"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/chatbox.png" alt="" />
+              </div>
+              <div class="col-sm-6">
+                <h4 id="alfredo">About the project</h4>
+                <p id="alfredo">
+                  This is a simple chat app built the react and socket.io. Users
+                  cant chat in real time and select different rooms to chat in.
+                </p>
+
+                <a
+                  href="https://github.com/alfredo195/chat-with-react"
+                  class="btn btn-primary btn-lg"
+                  target="_blank"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end projects -->
+    </div>
+    <!-- end of portfolio -->
+
+    <!-- Contact section -->
+    <div id="contact" class="section">
+      <div class="container">
+        <div class="section-heading text-center" data-animated="fadeInDown">
+          <h2 class="title"><span style=" background:  rgba(25, 25, 25, 1);">Let's git talking</span></h2>
+          <p id= "alfredo" class="subtitle">I would love to hear from you..</p>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <!-- contact form -->
+			<!-- <form id="contact-form" action="mailto:alfredo.gon195@gmail.com" method="POST">
+				<ul>
+				  <li>
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+				  </li>
+				  <li>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+				  </li>
+				  <li>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" required="required"></textarea>
+				  </li>
+				</ul>
+				<input type="submit" value="Send">
+			  </form> -->
+			  <form
+              action= "email.php"
+              name="contactform"
+              id="contactform"
+              accept-charset="utf-8"
+              class="contact-form js-contact-form"
+              method="post"
+            >
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <p id= "alfredo" class="mail-message  js-mail-message">
+                    Hi my name is
+                    <span
+                      class="contact_name  js-contact-name"
+                      data-placeholder="Alfredo Gonzalez"
+                      contenteditable="true"
+                      >Alfredo Gonzalez</span
+                    >
+                    and i am looking for
+                    <span
+                      class="contact_subject  js-contact-subject"
+                      data-placeholder="someone like you"
+                      contenteditable="true"
+                      >someone like you</span
+                    >. you can reach me on
+                    <span
+                      class="contact_email  js-contact-email"
+                      data-placeholder="alfredo.gon195@gmail.com"
+                      contenteditable="true"
+                      >alfredo.gon195@gmail.com</span
+                    >. Here's a quick outline of what I'm after:
+                    <span
+                      class="contact_brief  js-contact-brief"
+                      data-placeholder="I have a great project and I need to hire someone amazing"
+                      contenteditable="true"
+                      >I have a great project and I need to hire someone
+                      amazing</span
+                    >. I look forward to hearing from you.
+                  </p>
+                  <p class="mail-message  js-mail-success  js-hidden">
+                    Thank you. I have received your message and will be in
+                    touch with you shortly.
+                  </p>
+                  <button class="btn btn-default js-contact-submit">
+                    Send Mail <i class="sendmsg fa fa-location-arrow"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <!-- End contact form -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer-text clearfix">
+              <a class="footer-link" href="mailto:alfredo.gon195@gmail.com"
+                >alfredo.gon195@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social social-networks-transparent">
+              <a href="https://github.com/alfredo195"><i class="fa fa-github fa-lg"></i></a>
+              <a href="https://www.linkedin.com/in/alfredo-gonzalez-72a556190/"><i class="fa fa-linkedin fa-lg"></i></a>
+              <a href="https://stackoverflow.com/users/11872359/alfredo-gonzalez"><i class="fa fa-stack-overflow fa-lg"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end Footer -->
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/spin.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.timelinr-0.9.54.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="js/appear.js"></script>
+    <script type="text/javascript" src="js/jquery.form.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.typer.js"></script>
+    <script
+      type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?sensor=false"
+    ></script>
+    <script type="text/javascript" src="js/theme.js"></script>
+    <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+    <!-- end Jquery -->
+    <script>
+      //slider initialization
+      jQuery(function($) {
+        "use strict";
+
+        $.supersized({
+          // Functionality
+          slide_interval: 4000, // Length between transitions
+          transition: 1, // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+          transition_speed: 1200, // Speed of transition
+          keyboard_nav: 0,
+          // Components
+          slide_links: "blank", // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+
+          slides: [
+            { image: "images/sliderimg/04-bannerBg.jpg" },
+            { image: "images/sliderimg/03-sliderimg2.jpg" }
+          ]
+        });
+      });
+    </script>
+    <!-- end jQuery -->
+  </body>
+</html>
