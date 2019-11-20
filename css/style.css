@@ -3361,7 +3361,7 @@ blockquote cite {
 }
 /* Contact
 -------------------------*/
-.mail-message {
+/* .mail-message {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -3400,7 +3400,7 @@ blockquote cite {
 }
 .js-hidden {
   display: none !important;
-}
+} */
 @media only screen and (max-width: 1023px) {
   .mail-message [contenteditable="true"] {
     border-bottom-width: 3px;
@@ -3421,7 +3421,7 @@ blockquote cite {
     border-bottom-width: 3px;
   }
 }
-#contactform .btn-default {
+/* #contactform .btn-default {
   background: #73e0b8;
   padding: 20px 40px;
   border: 2px dotted;
@@ -3472,7 +3472,165 @@ blockquote cite {
   width: auto;
 }
 #contactform #submit_contact_form {
-  padding: 12px;
+  padding: 12px; 
+}*/
+#contact {
+  background-color:  rgba(25, 25, 25, 1);
+  text-align: center;
+  padding:6em 0;
+  position:relative;
+}
+
+#contact h1 {
+  margin:0;
+  color: #fff;
+  font-size: 3.25em;
+  font-weight: 400;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+#contact h2 {
+   -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  
+   color: #fff;
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 30px;
+    margin: 0 0 40px;
+    text-align: center;
+	
+}
+#contact p {
+  color: #fff;
+}
+#contact .icon {
+   background:#FFFFFF;
+   border-radius: 50%;
+   -webkit-border-radius:50%%;
+   color: #F44444;
+   display: inline-table;
+   font-weight: bold;
+   line-height: 12px;
+   margin-top: 20px;
+   padding: 5px;
+}
+#contact .contact-meta {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+#contact .cform{
+display:none;
+}
+#contact form {
+  margin-top: 30px;
+  margin-bottom: 0;
+  position:relative;
+}
+#contact form ._lines {
+    height: 243px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+._line {
+    background-image:url("../images/35_contact-line.png");
+	background-repeat:repeat-x;
+	height: 1px;
+    margin-top: 40px;
+    width: 100%;
+}
+#contact form ._name, #contact form ._email {
+    
+    transition: opacity 0.2s ease-in-out 0s;
+    
+}
+#contact form label {
+    display: block;
+    height: 40px;
+    position: relative;
+    width: 100%;
+	margin:0;
+}
+#contact form input, #contact form textarea{
+ color: #FFFFFF;
+    font-size: 18px;
+    line-height: 41px;
+    transition: all 0.2s ease-in-out 0s;
+	box-shadow:none;
+	}
+#contact form input{
+ background: none;
+    border: medium none;
+    height: 40px;
+    left: 0;
+    outline: medium none;
+    position: absolute;
+    padding:0;
+    top: -40px;
+    width: 100%;
+}
+#contact form textarea {
+  background:none;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+   cursor: default;
+   height: 200px;
+   overflow: hidden;
+   position: relative;
+   resize: none;
+   width: 100%;
+   margin-bottom:40px;
+}
+#contact form ::-webkit-input-placeholder {
+  color: #FFF;
+}
+#contact form :-moz-placeholder {
+  color: #FFF;
+}
+#contact form ::-moz-placeholder {
+  color: #FFF;
+}
+#contact form :-ms-input-placeholder {
+  color: #FFF;
+}
+#contact form input::-webkit-input-placeholder,
+#contact form textarea::-webkit-input-placeholder {
+  color: #FFF;
+}
+#contact form input:-moz-placeholder,
+#contact form textarea:-moz-placeholder {
+  color: #FFF;
+}
+#contact form button[type="submit"] {
+  outline: none;
+  background: none;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#contact form button[type="submit"]:hover {
+  background-color: #fff;
+  color: #F6464A;
+}
+#contact .container  {
+    transition: all 0.2s linear 0s;
+ 
 }
 /* Slideshow
 -------------------------*/

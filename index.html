@@ -629,7 +629,7 @@
 				</ul>
 				<input type="submit" value="Send">
 			  </form> -->
-			  <form
+			  <!-- <form
               action= "email.php"
               name="contactform"
               id="contactform"
@@ -676,6 +676,35 @@
                     Send Mail <i class="sendmsg fa fa-location-arrow"></i>
                   </button>
                 </div>
+              </div>
+            </form> -->
+            <form method="post" action="mailto:alfredo.gon195@gmail.com?subject=Email from your website" enctype="text/plain" >
+              <div class="_lines">
+                <div class="_line"></div>
+                <div class="_line"></div>
+                <div class="_line"></div>
+                <div class="_line"></div>
+                <div class="_line"></div>
+              </div>
+              <textarea class="_message" id="comments" placeholder="lets git in touch." name="body" enctype="text/plain"></textarea>
+              <div class="row">
+                <div class="_name col-sm-6">
+                  <label>
+                    
+                    <input class="form-control" type="text" required="required" placeholder="Your Name" name="name" id="cm-name" enctype="text/plain" >
+                    <label class="_line"></label>
+                  </label>
+                </div>
+                <div class="_email col-sm-6">
+                  <label>
+                    
+                    <input class="form-control" type="email" required="required" placeholder="Youremail@youremail.com" name="email" id="cm-trj-trj" enctype="text/plain">
+                    <label class="_line"></label>
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <button type="submit"  id="submit" class="btn btn-outline-white btn-big">Send Message</button>
               </div>
             </form>
             <!-- End contact form -->
