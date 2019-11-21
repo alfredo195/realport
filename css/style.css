@@ -3574,6 +3574,9 @@ display:none;
     top: -40px;
     width: 100%;
 }
+#msgBox {
+
+}
 #contact form textarea {
   background: RGB(47, 172, 192);
   color: #fff;
